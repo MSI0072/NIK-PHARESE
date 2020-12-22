@@ -1,4 +1,4 @@
-var nik = require("nik-parse-api");
+var nik = require("./tes.js");
 
 app.get('/api/nik/:nik', function (req, res) {
     const nik = req.params["nik"];
